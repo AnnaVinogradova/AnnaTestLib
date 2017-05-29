@@ -1,12 +1,17 @@
 {
-    "name": "a.vinogradova/test-lib",
+    "name": "anna.vinogradova/test-lib",
     "description": "Test Lib",
     "type": "library",
+    "license": "1.0",
     "authors": [
         {
             "name": "Anna Vinogradova",
             "email": "a.vinogradova@syberry.com"
         }
     ],
-    "require": {}
+    "minimum-stability": "dev",
+    "prefer-stable": false,
+    "require": {
+        "a.vinogradova/test-lib": "dev-master"
+    }
 }
